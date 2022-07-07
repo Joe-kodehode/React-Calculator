@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/Joe-kodehode/Joe-Kodehode.github.io",
+  "homepage": "https://Joe-kodehode.github.io",
   "name": "react_calculator",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
